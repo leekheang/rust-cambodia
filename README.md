@@ -1,4 +1,4 @@
-# ភាសារ៉ាស សម្រាប់គម្រោង  ចាប់ ពី ចំនុច សូន្យ ទៅ លេខ១ , Project Learn & Rust Zero to One 
+# ភាសាRust សម្រាប់គម្រោង  ចាប់ ពី ចំនុច សូន្យ ទៅ លេខ១ , Project Learn & Rust Zero to One 
 
 
 កសាងសហគមន៍អ្នកប្រើប្រាស់រ៉ាស​ Build Rust Community 
