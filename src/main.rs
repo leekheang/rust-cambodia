@@ -16,7 +16,7 @@ fn main() {
     println!("You guessed: {}", guess);
 
     let guess: u32 = guess.trim().parse().expect("Please Type a number");
-    
+
     match guess.cmp(&screct_number){
         Ordering::Less => println!("Too small"),
         Ordering::Greater => println!("Too big"),
