@@ -157,5 +157,3 @@ code, Cargo stores it in the target/debug directory.
 
 executable ក្នុង target/release មាននូវ target/debug ការ optimizations ធ្វើឲ្យកូដរបស់យើងលឿន ប៉ុន្តែវាចំណាយពេលច្រើនជាងធម្មតា  ចឹងបានយើងមានពីវិធី មួយសម្រាប់ ការអវិវឌ្ឍន៍ (development) ពេលយើងចង់ rebuild អោយលឿន និងមួយទៀតសម្រាប់កម្មវិធីបញ្ជប់ (final Program) វាធ្វើឲ្យកម្មវិធីដើរឡើនតាមតែអាច 
 
-=======
->>>>>>> 5eee2d3c2e33df367a99622de7c7d1fb02ccee92
