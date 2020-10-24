@@ -18,7 +18,7 @@
 *  សម្រាប់វិនដូរ​ CMD For Windows CMD, enter this:
    ```
     > mkdir "%USERPROFILE%\projects"
-    > cd /d "%USERPROFILE%\projects"
+    > cd /d "%USERPROFILE%\projects"p
     > mkdir hello_world
     > cd hello_world
     ```
@@ -140,7 +140,7 @@ Finished dev [unoptimized + debuginfo] target(s) in 0.33 secs
 Running `target/debug/hello_cargò
 ```  
 
-Cargo ផងដែល ផ្តោល ពាក្យបញ្ជារមួយដែលហៅថា cargo check. ពាក្យបញ្ជារនេះ ធ្វើការ 
+Cargo ផងដែលផ្តល់ ពាក្យបញ្ជារមួយដែលហៅថា cargo check. ពាក្យបញ្ជារនេះ ធ្វើការ 
 
  checks your code ដើម្បីប្រាកដថា​ វា compiles ប៉ុន្តែមិនសម្រាប់  produce an executable:
 
