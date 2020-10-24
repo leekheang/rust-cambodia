@@ -53,7 +53,7 @@ Hello, world!
 
 ## សួស្តី Cargo!
 Cargo គឺជា Rust ដែលសម្រាប់បង្កើត System ឬ កញ្ចប់ Package manager ( កញ្ចប់កូដដែលអាចយកប្រើប្រាស់បាន)
-Cargo មានប្រយោជន៍ខ្លាំង សម្រាប់ការបង្កើត គម្រោង និងជួយសម្រួល ចំពោះកិច្ចការផ្សេងៗ ដូចជា building កូដរបស់យើងដែលសរសេរហើយ ទាញយកដូចជា libraries​ ចំពោះការសរសេរកូដលក្ខណៈស្មុកស្មាញ យើងមិនអាច ខ្លះ Cargo បានឡើង ក៏ព្រោះថា យើងត្រូវការ នូវ ភាពអាស្រ័យ (dependencies) មួយចំនួនសម្រាប់ Project របស់យើង 
+Cargo មានប្រយោជន៍ខ្លាំង សម្រាប់ការបង្កើត គម្រោង និងជួយសម្រួល ចំពោះកិច្ចការផ្សេងៗ ដូចជា building កូដរបស់យើងដែលសរសេរហើយ ទាញយកដូចជា libraries​ ចំពោះការសរសេរកូដលក្ខណៈស្មុកស្មាញ យើងមិនអាចខ្វះ Cargo បានឡើង ក៏ព្រោះថា យើងត្រូវការ នូវ ភាពអាស្រ័យ (dependencies) មួយចំនួនសម្រាប់ Project របស់យើង 
  
 * ត្រួតពិនិត្យលើ ជំនាន់របស់ Cargo  
 ```
@@ -63,7 +63,7 @@ cargo --version
 
 ## បង្កើត គម្រោង ដោយ Cargo 
 
-បន្តិចទៀតយើងនឹងអាចដឹងពីភាព ខុសគ្នារវាង ការបង្កើតកម្រោងពី មុន ហើយប្រៀបធៀបនិង Cargo ខុសគ្នាយ៉ាងណា​
+បន្តិចទៀតយើងនឹងអាចដឹងពីភាព ខុសគ្នារវាង ការបង្កើតគម្រោងពី មុន ហើយប្រៀបធៀបនិង Cargo ខុសគ្នាយ៉ាងណា​
 គ្រប់ ប្រព័ន្ធប្រតិបត្តិការ ទាំងអស់ សរសេរដូចគ្នា៖ 
 
 ```
@@ -74,9 +74,10 @@ $ cd hello_cargo
 បង្កើត binary executable​ ថ្មីមួយ ត្រូវបានហៅថា hello_cargo
 ដែល --bin ជា argument(ប៉ារ៉ាមែទ័រ) ដាក់ ទៅហ្នឹង cargo ថ្មីហ្នឹងឯង​ រួចហើយបង្កើតបាន  executable application​ មួយ
 (often just called a binary) as opposed to a library
-ពួកយើងបាន គម្រោងមួយ​ដែលមានឈ្មោះថា​ សួស្តី៌ខារហ្គោ *hello_cargo*   ឥលូវ លូកពោះវា *hello_cargo*  ដើម្បីចង់ដឹងថានៅខាងក្នុង ប្រជេកមានអី ខ្លះ 
+ពួកយើងបាន គម្រោងមួយ​ដែលមានឈ្មោះថា​ សួស្តីខារហ្គោ *hello_cargo*   ឥលូវ ចូលទៅកាន់ *hello_cargo*  ដើម្បីចង់ដឹងថានៅខាងក្នុង ប្រជេកមានអី ខ្លះ 
 Cargo.toml file និង src ​directory មួយ
  main.rs file​ មួយ . មានការ initialized  Git ​repository​ ថ្មីមួយ ជាមួយ  .gitignore file
+<<<<<<< HEAD
 
  * Note 
  Git គឺជា Commond Version Control System យើងអាចធ្វើការប្តូរ Cargo new ទៅដើម្បីប្រើ version control system ផ្សេងៗ ឬ មិនប្រើ Version control system ក៏បាន ដោយ ប្រើនូវ -- vcs flag ។ Run cargo new --help ដើម្បី ស្វែងយល់ពីជម្រើសផ្សេងៗ ទៀតរបស់ Cargo 
@@ -156,3 +157,5 @@ code, Cargo stores it in the target/debug directory.
 
 executable ក្នុង target/release មាននូវ target/debug ការ optimizations ធ្វើឲ្យកូដរបស់យើងលឿន ប៉ុន្តែវាចំណាយពេលច្រើនជាងធម្មតា  ចឹងបានយើងមានពីវិធី មួយសម្រាប់ ការអវិវឌ្ឍន៍ (development) ពេលយើងចង់ rebuild អោយលឿន និងមួយទៀតសម្រាប់កម្មវិធីបញ្ជប់ (final Program) វាធ្វើឲ្យកម្មវិធីដើរឡើនតាមតែអាច 
 
+=======
+>>>>>>> 5eee2d3c2e33df367a99622de7c7d1fb02ccee92
