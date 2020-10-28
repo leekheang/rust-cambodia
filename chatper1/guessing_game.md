@@ -64,7 +64,7 @@ let foo = 5; // immutable
 
 let mut bar = 5; // mutable
 
-ការ Comment និង អំពី អថេរ លើនិយាយនៅមេរៀនក្រោយ
+ការ Comment និង អំពី អថេរ លើកនិយាយនៅមេរៀនក្រោយ
 ត្រលប់និយាយពី Game យើងវិញ 
 ឥឡូវអ្នកដឹងថា  let mut guess អនុញ្ញាតឱ្យ អថេរដែលអាចប្តូរតម្លៃបាន។   equal sign (=) គឺជាតម្លៃដែល guess is bound to (ចងទៅហ្នឹងអ្វីដែលនឹងផ្តល់មកវិញ​​​) ,
 លទ្ធផលនៃការ ការហៅ String::new a function ដែល returns a new instance នៃ a String. a string type ផ្តល់អោយដោយ standard library UTF-8 encoded bit of text.
