@@ -59,3 +59,13 @@ let mut guess = String::new();
 ចំណាំ​  let statement សម្រាប់ការបង្កើត អថេរ ( variable)
 ឩ let foo = bar ;
 បន្ទាត់ហ្នឹងគេបង្កើត អថេរថ្មីមួយដោយឲ្យឈ្មោះថា foo by binds (ដោយការចង) វា ពី bar ក្នុង  Rust, variables(អថេរ) គឺ immutable(មិនអាចផ្លាស់ប្តូរបាន) ដោយ defaul
+
+let foo = 5; // immutable
+
+let mut bar = 5; // mutable
+
+ការ Comment និង អំពី អថេរ លើនិយាយនៅមេរៀនក្រោយ
+ត្រលប់និយាយពី Game យើងវិញ 
+ឥឡូវអ្នកដឹងថា  let mut guess អនុញ្ញាតឱ្យ អថេរដែលអាចប្តូរតម្លៃបាន។   equal sign (=) គឺជាតម្លៃដែល guess is bound to (ចងទៅហ្នឹងអ្វីដែលនឹងផ្តល់មកវិញ​​​) ,
+លទ្ធផលនៃការ ការហៅ String::new a function ដែល returns a new instance នៃ a String. a string type ផ្តល់អោយដោយ standard library UTF-8 encoded bit of text.
+syntax :: , in the ::new បន្ទាត់បង្ហាញថាថ្មី គឺជា  associated function មួយ នៃ the String type , associated function គឺ implemented ទៅលើ a type, នៅក្នុងភាសាមួយចំនួនយើងអាចហៅថា a static method.
