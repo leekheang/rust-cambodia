@@ -54,11 +54,11 @@ println!("Please input your guess.");
 ក្នុងកូដនេះ គឺ បង្ហាញ  prompt  ថាតើ Game នេះទាមទារការបញ្ចូលអ្វី​ពី អ្នកលេង 
 
 # Storing Values with Variables
-បន្ទាប់មកយើង បង្កើតកន្លែងសម្រាប់ផ្ទុក នូវការបញ្ចូលពីអ្នកប្រើប្រាស់ គឺបែបនេះ ៖ 
+បន្ទាប់មក យើងបង្កើតកន្លែងសម្រាប់ផ្ទុក នូវការបញ្ចូលពីអ្នកប្រើប្រាស់ គឺបែបនេះ ៖ 
 let mut guess = String::new();
 ចំណាំ​  let statement សម្រាប់ការបង្កើត អថេរ ( variable)
 ឩ let foo = bar ;
-បន្ទាត់ហ្នឹងគេបង្កើត អថេរថ្មីមួយដោយឲ្យឈ្មោះថា foo by binds (ដោយការចង) វា ពី bar ក្នុង  Rust, variables(អថេរ) គឺ immutable(មិនអាចផ្លាស់ប្តូរបាន) ដោយ defaul
+បន្ទាត់ហ្នឹងគេបង្កើត អថេរថ្មីមួយដោយឲ្យឈ្មោះថា foo by binds (ដោយការចង) វា ពី bar ក្នុង  Rust, variables(អថេរ) គឺ immutable(មិនអាចផ្លាស់ប្តូរបាន) ដោយ default
 
 let foo = 5; // immutable
 
